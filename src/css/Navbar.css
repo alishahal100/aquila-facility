@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: transparent;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure navbar stays above other content */
+    transition: background-color 0.6s ease; /* Smooth transition for background color change */
+  }
+  
+  .navbar.active {
+    background: white;
+  }
+  
