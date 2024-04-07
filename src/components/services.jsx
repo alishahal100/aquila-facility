@@ -76,17 +76,17 @@ const Services = () => {
   };
 
   return (
-    <div className="p-8 text-center" id="services">
+    <div className="p-8 text-center mt-10 md:mt-0"  id="services">
        <Helmet>
         <title>Our Services - Aquilaa Facility Management</title>
         <meta name="description" content="Explore our comprehensive range of facility management services at Aquilaa Facility Management. From hard services to soft services, we provide top-notch solutions tailored to your needs." />
         <link rel="canonical" href="https://example.com/services" />
       </Helmet>
       <h1 className="text-4xl">OUR SERVICES</h1>
-      <div className=" grid lg:grid-cols-4 justify-center">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-4 justify-center">
         {/* Service Card for Hard Services */}
         <motion.div
-          className="relative w-screen lg:w-auto transition duration-500 ease-in-out transform hover:scale-105 m-4"
+          className="relative w-screen md:w-auto lg:w-auto transition duration-500 ease-in-out transform hover:scale-105 m-4"
           ref={ref1}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: inView1 ? 1 : 0, y: inView1 ? 0 : 20 }}

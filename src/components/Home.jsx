@@ -17,7 +17,7 @@ const Home = () => {
       <Navbar />
       {/* about us start */}
       <div id="about">
-        <div className="container lg:px-52 text-center gap-4 h-[50vh] w-screen flex flex-col justify-center items-center">
+        <div className="container px-5 lg:px-52 text-center mt-20 md:mt-0 gap-4 h-[50vh] w-screen flex flex-col justify-center items-center">
           <p>
             At Aquilaa Facility Management, we specialize in delivering
             comprehensive solutions for property maintenance and enhancement,
@@ -42,32 +42,32 @@ const Home = () => {
 
 
       {/* image */}
-      <div className="w-screen lg:h-[80vh] px-10 ">
-        <img src="/dubai-main.jpg" className="w-full lg:h-[70vh]" alt="" />
+      <div className="w-screen lg:h-[80vh] px-3 lg:px-10 ">
+        <img src="/dubai-main.jpg" className="w-full h-[25vh] lg:h-[70vh]" alt="aquilaa facility management" />
       </div>
 
       {/* work */}
-      <div className="w-screen h-[60vh] bg-[#1a3118] py-10  mt-20 lg:mt-0  px-20 flex justify-center gap-[100px] items-center" >
+      <div className="w-screen md:h-[30vh] lg:h-[60vh] bg-[#1a3118] py-10  mt-20 lg:mt-0  px-20 flex justify-center gap-[100px] items-center" >
         <div className=" flex flex-col gap-5 text-white">
-          <h1 className="text-6xl">
+          <h1 className="lg:text-6xl text-4xl">
             WE TAKE <br /> MAINTENANCE <br /> TO A HIGHER <br /> LEVEL.
           </h1>
 
-          <p className="text-2xl">
+          <p className="lg:text-2xl text-xl">
             We are the leading integrated facilities <br />
             management provider in Qatar
           </p>
         </div>
-        <div className=" hidden lg:block">
-          <img src="/work.jpg" className="w-[40vw] h-[60vh]" alt="" />
+        <div className=" hidden md:block">
+          <img src="/work.jpg" className="lg:w-[40vw] lg:h-[60vh] md:h-[30vh]" alt="" />
         </div>
       </div>
         
         {/* image */}
         <div class="w-screen lg:h-[50vh] lg:mt-0 mt-[200px] px-10 lg:grid lg:gap-5  lg:grid-cols-3 place-content-center justify-center">
-    <img src="/hard.jpg" alt="" className="lg:w-[1/3] w-full mb-2 h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
-    <img src="/image2.jpg" alt="" className="lg:w-[1/3] w-full mb-2 h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
-    <img src="/image3.jpg" alt="" className="lg:w-[1/3] w-full h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
+    <img src="/hard.jpg" alt="" className="lg:w-[1/3] w-full mb-2 lg:h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
+    <img src="/image2.jpg" alt="" className="lg:w-[1/3] w-full mb-2 lg:h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
+    <img src="/image3.jpg" alt="" className="lg:w-[1/3] w-full lg:h-[40vh] hover:scale-105 transition-all duration-300 ease-in-out"/>
 </div>
     <Footer/>
     </div>

@@ -11,7 +11,7 @@ const Footer = () => {
         <title>Contact Us - Aquilaa Facility Management</title>
         <meta name="description" content="Contact Aquilaa Facility Management for property maintenance and facility management services in Qatar. Call us at +974 4488 5151 or visit us at PO Box 32573, Al Sadd, Doha." />
       </Helmet>
-      <footer className="flex flex-col lg:flex-row items-center justify-center pb-16 gap-52 lg:gap-[800px]">
+      <footer className="flex flex-col lg:flex-row items-center justify-center pb-16 gap-20 lg:gap-[800px]">
         <div>
           <img src="/logo.png" alt="aquila facility management logo " />
         </div>
